@@ -4,7 +4,7 @@ RUN mkdir -p /go/src/github.com/hashicorp &&\
     cd /go/src/github.com/hashicorp &&\
     git clone https://github.com/bitglue/terraform.git terraform &&\
     cd terraform &&\
-    git checkout 9bc2fe6c50c3179d4caf52e2997c7f5ffa6512e3 &&\
+    git checkout a646d50d41776ad06b11ae759454c43eb4b52bc8 &&\
     make updatedeps &&\
     make dev
 
